@@ -1,0 +1,321 @@
+{
+    "movies": [
+      {
+        "id": 1,
+        "title": "Oppenheimer",
+        "year": 2023,
+        "genre": ["Biography", "Drama", "History"],
+        "director": "Christopher Nolan",
+        "cast": ["Cillian Murphy", "Robert Downey Jr.", "Emily Blunt", "Matt Damon", "Florence Pugh"],
+        "synopsis": "A gripping biographical drama about J. Robert Oppenheimer, the scientist who led the Manhattan Project and developed the atomic bomb.",
+        "box_office": "$950 million+",
+        "awards": ["Best Picture", "Best Director", "Best Actor"],
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ54FbJOW2Temj5lNil6FXGLtAbkrjE_bR_A&s"
+      },
+      {
+        "id": 2,
+        "title": "Avatar: The Way of Water",
+        "year": 2022,
+        "genre": ["Action", "Adventure", "Sci-Fi"],
+        "director": "James Cameron",
+        "cast": ["Sam Worthington", "Zoe Saldaña", "Sigourney Weaver", "Kate Winslet"],
+        "synopsis": "Jake Sully and Neytiri explore Pandora’s vast oceans while facing new threats against their family and homeland.",
+        "box_office": "$2.3 billion+",
+        "awards": ["Best Visual Effects"],
+        "img":"https://m.media-amazon.com/images/M/MV5BNmQxNjZlZTctMWJiMC00NGMxLWJjNTctNTFiNjA1Njk3ZDQ5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Spider-Man: No Way Home",
+        "year": 2021,
+        "genre": ["Action", "Adventure", "Fantasy"],
+        "director": "Jon Watts",
+        "cast": ["Tom Holland", "Zendaya", "Benedict Cumberbatch", "Andrew Garfield", "Tobey Maguire"],
+        "synopsis": "Peter Parker seeks help from Doctor Strange after his identity is revealed, leading to multiverse chaos.",
+        "box_office": "$1.9 billion+",
+        "awards": ["Nominated for Best Visual Effects"],
+        "img":"https://m.media-amazon.com/images/M/MV5BMmFiZGZjMmEtMTA0Ni00MzA2LTljMTYtZGI2MGJmZWYzZTQ2XkEyXkFqcGc@._V1_.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Top Gun: Maverick",
+        "year": 2022,
+        "genre": ["Action", "Drama"],
+        "director": "Joseph Kosinski",
+        "cast": ["Tom Cruise", "Miles Teller", "Jennifer Connelly", "Jon Hamm"],
+        "synopsis": "Pete 'Maverick' Mitchell returns to train elite Top Gun graduates for a high-risk mission.",
+        "box_office": "$1.5 billion+",
+        "awards": ["Best Sound"],
+        "img":"https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Top_Gun_Maverick_Poster.jpg/220px-Top_Gun_Maverick_Poster.jpg"
+      },
+      {
+        "id": 5,
+        "title": "The Batman",
+        "year": 2022,
+        "genre": ["Action", "Crime", "Drama"],
+        "director": "Matt Reeves",
+        "cast": ["Robert Pattinson", "Zoë Kravitz", "Paul Dano", "Jeffrey Wright"],
+        "synopsis": "Batman investigates Gotham’s corruption and faces the Riddler’s deadly game.",
+        "box_office": "$772 million+",
+        "awards": ["Nominated for Best Makeup and Hairstyling"],
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSdVBCxvq6f7CYvgD6aFktRc1sy_Es92XdlQ&s"
+      },
+      {
+        "id": 6,
+        "title": "Dune: Part One",
+        "year": 2021,
+        "genre": ["Adventure", "Drama", "Sci-Fi"],
+        "director": "Denis Villeneuve",
+        "cast": ["Timothée Chalamet", "Zendaya", "Rebecca Ferguson", "Oscar Isaac"],
+        "synopsis": "Paul Atreides must embrace his destiny to protect his people on the desert planet Arrakis.",
+        "box_office": "$402 million+",
+        "awards": ["Best Cinematography", "Best Visual Effects"],
+        "img":"https://upload.wikimedia.org/wikipedia/en/8/8e/Dune_%282021_film%29.jpg"
+      },
+      {
+        "id": 7,
+        "title": "John Wick: Chapter 4",
+        "year": 2023,
+        "genre": ["Action", "Crime", "Thriller"],
+        "director": "Chad Stahelski",
+        "cast": ["Keanu Reeves", "Donnie Yen", "Bill Skarsgård", "Laurence Fishburne"],
+        "synopsis": "John Wick takes his fight against the High Table worldwide while facing deadly new enemies.",
+        "box_office": "$432 million+",
+        "awards": ["Nominated for Best Stunts"],
+        "img":"https://i0.wp.com/catsbulletin.com/wp-content/uploads/2023/06/john-wick-4-1-scaled.jpeg?fit=1707%2C2560&ssl=1"
+      },
+      {
+        "id": 8,
+        "title": "Everything Everywhere All at Once",
+        "year": 2022,
+        "genre": ["Action", "Comedy", "Drama"],
+        "director": "Daniel Kwan, Daniel Scheinert",
+        "cast": ["Michelle Yeoh", "Ke Huy Quan", "Stephanie Hsu", "Jamie Lee Curtis"],
+        "synopsis": "A laundromat owner discovers she must harness powers from alternate universes to save existence.",
+        "box_office": "$140 million+",
+        "awards": ["Best Picture", "Best Actress", "Best Supporting Actor"],
+        "img":"https://upload.wikimedia.org/wikipedia/en/1/1e/Everything_Everywhere_All_at_Once.jpg"
+      },
+      {
+        "id": 9,
+        "title": "Guardians of the Galaxy Vol. 3",
+        "year": 2023,
+        "genre": ["Action", "Adventure", "Comedy"],
+        "director": "James Gunn",
+        "cast": ["Chris Pratt", "Zoe Saldaña", "Dave Bautista", "Bradley Cooper"],
+        "synopsis": "The Guardians embark on a mission to protect Rocket Raccoon while facing new threats.",
+        "box_office": "$845 million+",
+        "awards": ["Nominated for Best Visual Effects"],
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-pITeGObusxyTyNrjc__udadzZguL1Q1nPg&s"
+      },
+      {
+        "id": 10,
+        "title": "Mission: Impossible – Dead Reckoning Part One",
+        "year": 2023,
+        "genre": ["Action", "Adventure", "Thriller"],
+        "director": "Christopher McQuarrie",
+        "cast": ["Tom Cruise", "Rebecca Ferguson", "Simon Pegg", "Hayley Atwell"],
+        "synopsis": "Ethan Hunt and his team race against time to stop a rogue AI from taking over the world.",
+        "box_office": "$567 million+",
+        "awards": ["Nominated for Best Stunts"],
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCG9hAcICjUJlrKw4SIVaVqp_kwMpYfGKEyA&s"
+      },
+      {
+        "id": 11,
+        "title": "Black Panther: Wakanda Forever",
+        "year": 2022,
+        "genre": ["Action", "Adventure", "Drama"],
+        "director": "Ryan Coogler",
+        "cast": ["Letitia Wright", "Angela Bassett", "Lupita Nyong'o", "Tenoch Huerta"],
+        "synopsis": "Wakanda mourns King T’Challa’s death while facing new threats from an underwater kingdom.",
+        "box_office": "$859 million+",
+        "awards": ["Best Supporting Actress"],
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSzkiB6Hi4ubwyfm94aTmvzb5NnRBbIY3nGg&s"
+      },
+      {
+        "id": 12,
+        "title": "The Super Mario Bros. Movie",
+        "year": 2023,
+        "genre": ["Animation", "Adventure", "Comedy"],
+        "director": "Aaron Horvath, Michael Jelenic",
+        "cast": ["Chris Pratt", "Anya Taylor-Joy", "Charlie Day", "Jack Black"],
+        "synopsis": "Mario and Luigi embark on an adventure to stop Bowser from conquering the Mushroom Kingdom.",
+        "box_office": "$1.36 billion+",
+        "awards": ["Nominated for Best Animated Film"],
+        "img":"https://upload.wikimedia.org/wikipedia/en/thumb/4/44/The_Super_Mario_Bros._Movie_poster.jpg/220px-The_Super_Mario_Bros._Movie_poster.jpg"
+      }
+    ],
+    "tvs": [
+    {
+      "id": 1,
+      "title": "Breaking Bad",
+      "year": 2008,
+      "genre": ["Crime", "Drama", "Thriller"],
+      "creator": "Vince Gilligan",
+      "cast": ["Bryan Cranston", "Aaron Paul", "Anna Gunn", "Dean Norris"],
+      "synopsis": "A high school chemistry teacher turned methamphetamine producer partners with a former student to build a drug empire.",
+      "seasons": 5,
+      "awards": ["16 Primetime Emmy Awards", "2 Golden Globe Awards"],
+      "img":"https://m.media-amazon.com/images/M/MV5BMzU5ZGYzNmQtMTdhYy00OGRiLTg0NmQtYjVjNzliZTg1ZGE4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Game of Thrones",
+      "year": 2011,
+      "genre": ["Action", "Adventure", "Drama"],
+      "creator": ["David Benioff", "D. B. Weiss"],
+      "cast": ["Emilia Clarke", "Kit Harington", "Peter Dinklage", "Lena Headey"],
+      "synopsis": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns.",
+      "seasons": 8,
+      "awards": ["59 Primetime Emmy Awards"],
+      "img":"https://m.media-amazon.com/images/M/MV5BMTNhMDJmNmYtNDQ5OS00ODdlLWE0ZDAtZTgyYTIwNDY3OTU3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Stranger Things",
+      "year": 2016,
+      "genre": ["Drama", "Fantasy", "Horror"],
+      "creator": ["The Duffer Brothers"],
+      "cast": ["Millie Bobby Brown", "Finn Wolfhard", "Winona Ryder", "David Harbour"],
+      "synopsis": "A group of kids in a small town uncover a secret government experiment and supernatural creatures.",
+      "seasons": 5,
+      "awards": ["7 Primetime Emmy Awards"],
+      "img":"https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Stranger_Things_season_4.jpg/220px-Stranger_Things_season_4.jpg"
+    },
+    {
+      "id": 4,
+      "title": "The Last of Us",
+      "year": 2023,
+      "genre": ["Action", "Adventure", "Drama"],
+      "creator": ["Craig Mazin", "Neil Druckmann"],
+      "cast": ["Pedro Pascal", "Bella Ramsey", "Anna Torv", "Gabriel Luna"],
+      "synopsis": "A hardened survivor and a young girl journey through a post-apocalyptic world filled with infected creatures.",
+      "seasons": 1,
+      "awards": ["Nominated for 24 Emmy Awards"],
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv0PkgCQhMFgeUyeUOJ5hzxaPp4ts44m9hpw&s"
+    },
+    {
+      "id": 5,
+      "title": "The Witcher",
+      "year": 2019,
+      "genre": ["Action", "Adventure", "Drama"],
+      "creator": "Lauren Schmidt Hissrich",
+      "cast": ["Henry Cavill", "Anya Chalotra", "Freya Allan", "Joey Batey"],
+      "synopsis": "A monster hunter struggles to find his place in a world where people are often more wicked than beasts.",
+      "seasons": 3,
+      "awards": ["Nominated for Best Drama Series"],
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw1-y3CidOjAoN7M9N5aioBr3V0l_3fTjGqg&s"
+    },
+    {
+      "id": 6,
+      "title": "Better Call Saul",
+      "year": 2015,
+      "genre": ["Crime", "Drama"],
+      "creator": ["Vince Gilligan", "Peter Gould"],
+      "cast": ["Bob Odenkirk", "Jonathan Banks", "Rhea Seehorn", "Michael McKean"],
+      "synopsis": "The story of a small-time lawyer, Jimmy McGill, who transforms into the morally challenged lawyer, Saul Goodman.",
+      "seasons": 6,
+      "awards": ["Nominated for 53 Emmy Awards"],
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRimEHbz4Blzqgcu0-qbS9jHLEKoeuxb7VwXg&s"
+    },
+    {
+      "id": 7,
+      "title": "House of the Dragon",
+      "year": 2022,
+      "genre": ["Action", "Adventure", "Drama"],
+      "creator": ["Ryan Condal", "George R.R. Martin"],
+      "cast": ["Paddy Considine", "Matt Smith", "Emma D'Arcy", "Olivia Cooke"],
+      "synopsis": "Set 200 years before Game of Thrones, it follows the rise and fall of House Targaryen.",
+      "seasons": 1,
+      "awards": ["Golden Globe for Best Drama Series"],
+      "img":"https://m.media-amazon.com/images/M/MV5BM2QzMGVkNjUtN2Y4Yi00ODMwLTg3YzktYzUxYjJlNjFjNDY1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": 8,
+      "title": "The Mandalorian",
+      "year": 2019,
+      "genre": ["Action", "Adventure", "Fantasy"],
+      "creator": "Jon Favreau",
+      "cast": ["Pedro Pascal", "Gina Carano", "Carl Weathers", "Giancarlo Esposito"],
+      "synopsis": "A lone bounty hunter travels the galaxy, protecting a mysterious child with hidden abilities.",
+      "seasons": 3,
+      "awards": ["14 Primetime Emmy Awards"],
+      "img": "https://upload.wikimedia.org/wikipedia/en/e/e7/The_Mandalorian_season_2_poster.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Squid Game",
+      "year": 2021,
+      "genre": ["Action", "Drama", "Thriller"],
+      "creator": "Hwang Dong-hyuk",
+      "cast": ["Lee Jung-jae", "Park Hae-soo", "Wi Ha-joon", "Jung Ho-yeon"],
+      "synopsis": "Hundreds of cash-strapped players accept an invitation to compete in deadly children's games for a massive cash prize.",
+      "seasons": 1,
+      "awards": ["6 Primetime Emmy Awards"],
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsWs9RHXADuHf0DoB7k_PD-h09Bn2AL8sJDw&s"
+    },
+    {
+      "id": 10,
+      "title": "Loki",
+      "year": 2021,
+      "genre": ["Action", "Adventure", "Fantasy"],
+      "creator": "Michael Waldron",
+      "cast": ["Tom Hiddleston", "Owen Wilson", "Sophia Di Martino", "Gugu Mbatha-Raw"],
+      "synopsis": "Loki, the God of Mischief, is pulled from time by the Time Variance Authority and forced to fix time paradoxes.",
+      "seasons": 2,
+      "awards": ["Nominated for 6 Emmy Awards"],
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCS9XoZx19XfYhetLLGtNGy_mOL4YZQ0UoHQ&s"
+    },
+    {
+      "id": 11,
+      "title": "Wednesday",
+      "year": 2022,
+      "genre": ["Comedy", "Horror", "Mystery"],
+      "creator": ["Alfred Gough", "Miles Millar"],
+      "cast": ["Jenna Ortega", "Gwendoline Christie", "Riki Lindhome", "Catherine Zeta-Jones"],
+      "synopsis": "Wednesday Addams attends Nevermore Academy, where she investigates a series of supernatural mysteries.",
+      "seasons": 1,
+      "awards": ["Golden Globe for Best Actress (Jenna Ortega)"],
+      "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEHUjQNfW-bU8ijQ3UJtMzDGaR8AzwQQ6dCw&s"
+    },
+    {
+      "id": 12,
+      "title": "Peaky Blinders",
+      "year": 2013,
+      "genre": ["Crime", "Drama"],
+      "creator": "Steven Knight",
+      "cast": ["Cillian Murphy", "Paul Anderson", "Helen McCrory", "Tom Hardy"],
+      "synopsis": "A crime boss in 1920s Birmingham, England, expands his empire while facing challenges from rival gangs and the government.",
+      "seasons": 6,
+      "awards": ["BAFTA for Best Drama Series"],
+      "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrNxSTfTGfajumHu0c2d8dA3kpU-uZG5pgqw&s"
+    }
+    ],
+    "banners":[
+      {
+        "id":1,
+        "img":"https://static.vecteezy.com/system/resources/previews/000/540/684/non_2x/cinema-banner-alphabet-sign-marquee-light-bulb-vintage-vector.jpg"
+      },
+      {
+        "id":2,
+        "img":"https://collider.com/wp-content/uploads/the-avengers-movie-poster-banners-04.jpg"
+      },
+      {
+        "id":3,
+        "img":"https://www.moviepostershop.com/images/slideshow/new-releases.jpg"
+      },
+      {
+        "id":4,
+        "img":"https://digitalspyuk.cdnds.net/13/35/movies-the-hunger-games-catching-fire-banner.jpg"
+      },
+      {
+        "id":5,
+        "img":"https://cdn.pixabay.com/photo/2015/09/21/14/47/banner-949944_1280.jpg"
+      },
+      {
+        "id":6,
+        "img":"https://cdn.designcrowd.com/blog/2018/March/50-Typographic-Oscars-Film-Posters/GR_Typographic-Oscar-Film-Posters_Banner_828x300.jpg"
+      }
+    ]
+  }
+  
