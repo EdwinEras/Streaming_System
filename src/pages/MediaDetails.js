@@ -10,7 +10,7 @@ function MediaDetails() {
   const [errorMsg, setErrorMsg] = useState();
 
   useEffect(() => {
-    if(type == "movies"){
+    if(type === "movies"){
       fetchMovieId(id)
       .then((response) => {setJsonMedia(response)})
       .catch((error) => {setErrorMsg(error)});

@@ -11,15 +11,21 @@ function App() {
 
   useEffect(() => {
     fetchBanners()
-    .then((response) => {setJsonBanns(response)})
+    .then((response) => {
+      console.log(response);
+      setJsonBanns(response)})
     .catch((error) => {setErrorMsg(error)});
 
     fetchMovies()
-    .then((response) => {setJsonMovies(response)})
+    .then((response) => {
+      console.log(response);
+      setJsonMovies(response)})
     .catch((error) => {setErrorMsg(error)});
 
     fetchTvs()
-    .then((response) => {setJsonTvs(response)})
+    .then((response) => {
+      console.log(response);
+      setJsonTvs(response)})
     .catch((error) => {setErrorMsg(error)});
   }, []);
 

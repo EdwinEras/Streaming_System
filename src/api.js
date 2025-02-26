@@ -1,5 +1,5 @@
 import axios from "axios";
-const BASE_URL = "http://localhost:3001";
+const BASE_URL = "https://json-server-cepl.onrender.com";
 
 export const fetchMovies = async () => {
     const movies = await axios.get(BASE_URL+"/movies")

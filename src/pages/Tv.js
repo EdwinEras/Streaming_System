@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { Outlet, Link, NavLink } from "react-router";
 import { fetchTvs } from "../api"
 import MediaCard from "../components/media_card/mediaCard";
 
