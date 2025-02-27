@@ -23,7 +23,7 @@ function MediaDetails() {
 
   return (
     <div 
-      className="min-h-[70vh]"
+      className="h-screen mt-8 mx-4"
       key={jsonMedia.id}>
         <DetailsCard
           id={jsonMedia.id}
