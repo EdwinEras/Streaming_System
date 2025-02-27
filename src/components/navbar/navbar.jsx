@@ -18,17 +18,17 @@ const NavBar = () => {
     ];
 
     return (
-        <nav className="bg-white border-red-200 dark:bg-red-900">
+        <nav className="border-red-200 bg-red-900">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
                 <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <img src="/cinema.png" className="h-16" alt="Cinema Logo" />
-                    <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+                    <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
                         Cinema
                     </span>
                 </Link>
                 <button 
                     onClick={() => setMenuOpen(!menuOpen)}
-                    className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-red-500 rounded-lg md:hidden hover:bg-red-100 focus:outline-none focus:ring-2 focus:ring-red-200 dark:text-red-400 dark:hover:bg-red-700 dark:focus:ring-red-600"
+                    className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden hover:bg-red-700 focus:outline-none focus:ring-red-600 focus:ring-red-200 text-red-400"
                 >
                     <span className="sr-only">Open main menu</span>
                     {menuOpen ? (
@@ -42,11 +42,11 @@ const NavBar = () => {
                     )}
                 </button>
                 <div className={`w-full md:flex md:items-center md:w-auto ${menuOpen ? "block" : "hidden"}`}>
-                    <ul className="flex flex-col md:flex-row md:space-x-8 mt-4 md:mt-0 bg-red-50 md:bg-transparent dark:bg-red-800 md:dark:bg-red-900 p-4 md:p-0 rounded-lg border md:border-0">
+                    <ul className="flex flex-col md:flex-row md:space-x-8 mt-4 md:mt-0 bg-red-800 md:bg-red-900 p-4 md:p-0 rounded-lg border md:border-0">
                         {arrLink.map((link) => (
                             <li key={link.id} onClick={() => {setActive(link.id)}}>
                                 <Link to={link.path}
-                                className={`py-2 px-3 rounded-lg hover:bg-red-100 dark:text-white dark:hover:bg-red-700
+                                className={`py-2 px-3 rounded-lg text-white hover:bg-red-700
                                     ${active===link.id ? "bg-red-700" : "text-red-900"}
                                 `}>
                                     {link.name}

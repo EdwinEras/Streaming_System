@@ -5,19 +5,21 @@ const MediaCard = ({id, title, year, img, type}) => {
     return(
         <div
         key={id} 
-        className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
-        <Link key={id} to={`/${type}/${id}`}>
-            <img className="p-2 rounded-t-lg" src={img} alt={title} />
+        className="w-full max-w-sm border rounded-lg shadow-sm bg-gray-800 border-gray-700">
+            <img className="p-2 rounded-t-lg h-60 md:h-3/4" src={img} alt={title} />
             <div className="px-5 pb-5">
-                <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">{title}</h5>
+                <h5 className="text-xl font-semibold tracking-tight text-white">{title}</h5>
                 <div className="flex items-center justify-between">
-                    <span className="text-xl font-bold text-gray-900 dark:text-white">{year}</span>
-                    <button className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    <span className="text-xl font-bold text-white">{year}</span>
+                    <Link key={id} to={`/${type}/${id}`}>
+                    <button 
+                    
+                    className="text-white rounded-lg px-3 py-2 m-2 text-center bg-blue-500 hover:bg-blue-700">
                         Details
                     </button>
+                    </Link>
                 </div>
             </div>
-        </Link>
         </div>
         
     )

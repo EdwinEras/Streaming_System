@@ -32,7 +32,7 @@ function App() {
  
 
   return (
-    <div className="App ">
+    <div>
       <div className="my-8 mx-4">
         <Carousel banners={jsonBanns} autoSlide={true} />
       </div>

@@ -13,7 +13,7 @@ function Tv() {
   }, []);
 
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2 my-4 mx-8">
+    <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2 my-8 mx-8">
       {jsonTvs.map((tv) => (
           <MediaCard
             key={tv.id}
