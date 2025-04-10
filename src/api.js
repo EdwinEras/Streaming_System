@@ -44,7 +44,7 @@ export const fetchMediaByName = async (name) => {
 }
 
 export const fetchFeaturedMedia = async (type, value) => {
-    const media = await axios.get(BASE_URL+`/featured/${type}?featured=${value}`)
+    const media = await axios.get(BASE_URL2+`/featured/${type}?featured=${value}`)
     .then(response =>{return response.data})
     .catch(error => {return error});
     return media;
