@@ -23,9 +23,9 @@ function Movie() {
           <MediaCard
             key={movie.id}
             id={movie.id}
-            title={movie.title}
-            year={movie.year}
-            img={movie.img}
+            name={movie.name}
+            rentPrice={movie.rentPrice}
+            largePoster={movie.largePoster}
             type={"movies"}
           />
       ))}

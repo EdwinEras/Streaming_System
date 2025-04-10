@@ -1,16 +1,16 @@
 import React from "react";
 import { Link } from "react-router";
 
-const MediaCard = ({id, title, year, img, type}) => {
+const MediaCard = ({id, name, rentPrice, largePoster, type}) => {
     return(
         <div
         key={id} 
         className="w-full max-w-sm border rounded-lg shadow-sm bg-gray-800 border-gray-700">
-            <img className="p-2 rounded-t-lg h-60 md:h-3/4" src={img} alt={title} />
+            <img className="p-2 rounded-t-lg h-60 md:h-3/4" src={largePoster} alt={name} />
             <div className="px-5 pb-5">
-                <h5 className="text-xl font-semibold tracking-tight text-white">{title}</h5>
+                <h5 className="text-xl font-semibold tracking-tight text-white">{name}</h5>
                 <div className="flex items-center justify-between">
-                    <span className="text-xl font-bold text-white">{year}</span>
+                    <span className="text-xl font-bold text-white">{rentPrice}</span>
                     <Link key={id} to={`/${type}/${id}`}>
                     <button 
                     

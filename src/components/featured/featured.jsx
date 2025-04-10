@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router";
 
 const Featured = ({ arrMedia, type }) => {
+    console.log(arrMedia)
     return (
         <div className="border rounded-lg shadow-sm bg-gray-800 border-gray-700">
             <div className="relative">
@@ -15,8 +16,8 @@ const Featured = ({ arrMedia, type }) => {
                     <Link key={type + media.id} to={`/${type}/${media.id}`}>
                         <img
                             className="w-32 mt-8 sm:w-48 h-auto rounded-lg object-cover"
-                            src={media.img}
-                            alt={media.title}
+                            src={media.smallPoster}
+                            alt={media.name}
                         />
                     </Link>
                 ))}

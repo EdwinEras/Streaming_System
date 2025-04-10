@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { fetchTvs } from "../api"
+import { fetchTvShows } from "../api"
 import MediaCard from "../components/media_card/mediaCard";
 import Loading from "../components/loading/Loading";
 
@@ -10,7 +10,7 @@ function Tv() {
 
   useEffect(() => {
     setLoading(true);
-    fetchTvs()
+    fetchTvShows()
     .then((response) => {setJsonTvs(response)})
     .catch((error) => {setErrorMsg(error)})
     .finally(setLoading(false));
@@ -19,15 +19,15 @@ function Tv() {
   if(loading){return <Loading />}
   else{ return (
     <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2 my-8 mx-8">
-      {jsonTvs.map((tv) => (
-          <MediaCard
-            key={tv.id}
-            id={tv.id}
-            title={tv.title}
-            year={tv.year}
-            img={tv.img}
-            type={"tvs"}
-          />
+      {jsonTvs.map((tvs) => (
+        <MediaCard
+          key={tvs.id}
+          id={tvs.id}
+          name={tvs.name}
+          rentPrice={tvs.rentPrice}
+          largePoster={tvs.largePoster}
+          type={"movies"}
+        />
       ))}
     </div>
   )}

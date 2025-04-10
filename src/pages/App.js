@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { fetchBanners, fetchMovies, fetchTvs } from "../api"
+import { fetchBanners, fetchFeaturedMedia } from "../api"
 import Featured from "../components/featured/featured";
 import Loading from "../components/loading/Loading";
 import Carousel from "../components/carousel/carousel";
@@ -15,16 +15,16 @@ function App() {
     const fetchData = async () => {
       try {
         setLoading(true);
-        const [bannersResponse, moviesResponse, tvsResponse] = await Promise.all([
+        const [bannersResponse, featuredMovies, featuredTvShows] = await Promise.all([
           fetchBanners(),
-          fetchMovies(),
-          fetchTvs(),
+          fetchFeaturedMedia("movies", true),
+          fetchFeaturedMedia("tvshows", true),
         ]);
-  
         setJsonBanns(bannersResponse);
-        setJsonMovies(moviesResponse);
-        setJsonTvs(tvsResponse);
-  
+        setJsonMovies(featuredMovies);
+        setJsonTvs(featuredTvShows);
+        console.log(jsonMovies);
+        console.log(jsonTvs);
       } catch (error) {
         setErrorMsg(error);
       } finally {
@@ -42,10 +42,10 @@ function App() {
         <Carousel banners={jsonBanns} autoSlide={true} />
       </div>
       <div className="my-8 mx-4">
-        <Featured arrMedia={jsonMovies.splice(0,6)} type={"movies"}/>
+        <Featured arrMedia={jsonMovies} type={"movies"}/>
       </div>
       <div className="my-8 mx-4">
-        <Featured arrMedia={jsonTvs.splice(0,6)} type={"tvs"}/>
+        <Featured arrMedia={jsonTvs} type={"tvshows"}/>
       </div>
     </div>
   )}

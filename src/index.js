@@ -1,3 +1,9 @@
+/*
+- Help create single page web apps
+- Make it simple to manage and define routes in the application
+- Abstract the repetitive logic of creating endpoints
+*/
+
 import ReactDOM from 'react-dom/client';
 import React from 'react';
 import './index.css';
@@ -20,7 +26,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="movies" element={<Movie />} />
-        <Route path="tvs" element={<Tv />} />
+        <Route path="tvshows" element={<Tv />} />
         <Route path="register" element={<Register />} />
         <Route path="login" element={<Login />} />
         <Route path="/:type/:id" element={<MediaDetails />} />

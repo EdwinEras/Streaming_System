@@ -1,5 +1,10 @@
+/*
+- Link does not reload the page
+- Increase the response time of navigating to a new page
+*/
+
 import React, { useEffect, useState } from "react";
-import { Link, Outlet } from "react-router";// Ensure correct import
+import { Link, Outlet } from "react-router";
 
 const NavBar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -12,7 +17,7 @@ const NavBar = () => {
     const arrLink = [
         {id:0, path:"/", name:"Home"},
         {id:1, path:"/movies", name:"Movies"},
-        {id:2, path:"/tvs", name:"Tvs"},
+        {id:2, path:"/tvshows", name:"Tvs"},
         {id:3, path:"/register", name:"Register"},
         {id:4, path:"/login", name:"Log In"},
     ];
