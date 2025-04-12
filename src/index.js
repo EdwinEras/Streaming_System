@@ -17,6 +17,7 @@ import Login from './pages/Login';
 import Movie from './pages/Movies';
 import Tv from './pages/Tv';
 import MediaDetails from './pages/MediaDetails';
+import Dashboard from './pages/Dashboard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -30,6 +31,7 @@ root.render(
         <Route path="register" element={<Register />} />
         <Route path="login" element={<Login />} />
         <Route path="/:type/:id" element={<MediaDetails />} />
+        <Route path="dashboard" element={<Dashboard />} />
       </Routes>
       <Footer />
     </BrowserRouter>

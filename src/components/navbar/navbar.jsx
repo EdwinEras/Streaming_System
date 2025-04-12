@@ -22,6 +22,21 @@ const NavBar = () => {
         {id:4, path:"/login", name:"Log In"},
     ];
 
+    const deleteFromLocalStorage = (key) => {
+        const logUser = getFromLocalStorage("user");
+        if(logUser){
+            localStorage.removeItem(key);
+            alert("User signed out");
+        }else{
+            alert("No user found");
+        }
+    };
+
+    const getFromLocalStorage = (key) => {
+        const storedValue = localStorage.getItem(key);
+        return JSON.parse(storedValue) ? storedValue : null;
+    };
+
     return (
         <nav className="border-red-200 bg-red-900">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
@@ -52,13 +67,16 @@ const NavBar = () => {
                             <li key={link.id} onClick={() => {setActive(link.id)}}>
                                 <Link to={link.path}
                                 className={`py-2 px-3 rounded-lg text-white hover:bg-red-700
-                                    ${active===link.id ? "bg-red-700" : "text-red-900"}
-                                `}>
+                                    ${active===link.id ? "bg-red-700" : "text-red-900"}`}>
                                     {link.name}
                                 </Link>
                             </li>
                         ))}
-                        
+                        <li onClick={() => {deleteFromLocalStorage("user")}}
+                        className="py-2 px-3 rounded-lg text-white hover:bg-red-700 text-red-900"
+                        >
+                            Sign Out
+                        </li>
                     </ul>
                 </div>
             </div>
