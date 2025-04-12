@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router";
 
 const Featured = ({ arrMedia, type }) => {
-    console.log(arrMedia)
     return (
         <div className="border rounded-lg shadow-sm bg-gray-800 border-gray-700">
             <div className="relative">

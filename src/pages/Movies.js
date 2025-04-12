@@ -21,11 +21,9 @@ function Movie() {
     try{
       if(name){
         const listMovies = await fetchMediaByName(name);
-        console.log(listMovies);
         setJsonMovies(listMovies);
       }else{
         const listMovies = await fetchMovies();
-        console.log(listMovies);
         setJsonMovies(listMovies);
       }
     }catch(err){

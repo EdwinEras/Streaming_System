@@ -27,7 +27,7 @@ function Dashboard(){
         <div className="h-screen mt-8 mx-4">
             <section className="relative z-10 max-w-4xl mx-auto">
                 <h1 className="text-2xl sm:text-4xl font-bold mb-6 text-red-700 mt-28 uppercase">
-                    Welcome back, {user.firstName} {user.lastName}!
+                    Welcome back, {user.firstName} {user.lastName}
                 </h1>
 
                 <div className="bg-white/10 backdrop-blur-md p-8 border border-gray-300 bg-gray-300 shadow-lg rounded-xl">

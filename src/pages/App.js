@@ -23,8 +23,6 @@ function App() {
         setJsonBanns(bannersResponse);
         setJsonMovies(featuredMovies);
         setJsonTvs(featuredTvShows);
-        console.log(jsonMovies);
-        console.log(jsonTvs);
       } catch (error) {
         setErrorMsg(error);
       } finally {

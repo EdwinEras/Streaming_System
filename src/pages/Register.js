@@ -19,7 +19,6 @@ function Register() {
         };
         try{
             const logedUser = await createUsers(formData);
-            console.log(logedUser);
             if(logedUser.email){
                 navigate("/")
             }

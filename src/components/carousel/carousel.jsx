@@ -7,7 +7,6 @@ const Carousel = ({banners, autoSlide}) => {
 
     function previous() {
         setCurrent((current) => {
-            console.log(current);
             if(current === 0){ 
                 return banners.length - 1;
             }else{ 

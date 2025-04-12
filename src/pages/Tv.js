@@ -23,16 +23,17 @@ function Tv() {
   }, []);
 
   const filterShows = async (name) =>{
-    if(name){
-      const listShows = await fetchMediaByName(name);
-      console.log(listShows);
-      setJsonTvs(listShows);
-    }else{
-      const listShows = await fetchTvShows();
-      console.log(listShows);
-      setJsonTvs(listShows);
+    try{
+      if(name){
+        const listShows = await fetchMediaByName(name);
+        setJsonTvs(listShows);
+      }else{
+        const listShows = await fetchTvShows();
+        setJsonTvs(listShows);
+      }
+    }catch(err){
+      console.log(err);
     }
-    
   }
 
   if (loading) {

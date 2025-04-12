@@ -13,11 +13,9 @@ const BASE_URL2 = "https://movieapi-koqu.onrender.com";
 export const fetchMovies = async () => {
     const movies = await axios.get(BASE_URL2+"/movies")
     .then(response =>{
-        console.log(response);
         return response.data
     })
     .catch(error => {return error});
-    console.log(movies);
     return movies;
 }
 

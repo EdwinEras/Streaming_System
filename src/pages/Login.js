@@ -21,7 +21,6 @@ function Login() {
     };
     try{
       const logUser = await loginUser(formData);
-      console.log(logUser);
       if(logUser.email){
         saveToLocalStorage("user", logUser);
         // alert("User signed in")
